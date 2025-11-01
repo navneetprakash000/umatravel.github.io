@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma International Travel Services - Your trusted partner for flights, trains, hotels, and tour packages. Book your dream journey with IATA certified travel agency.">
+    <meta name="keywords" content="travel agency, flight tickets, train tickets, hotel booking, tour packages, travel services, Gopalganj, Bihar, IATA certified">
+    <meta name="author" content="Uma International Travel Services">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.umatravel.in/">
+    <meta property="og:title" content="Uma International Travel Services | Book Your Dream Journey">
+    <meta property="og:description" content="Your trusted partner for seamless ticket booking and travel solutions. IATA certified travel agency.">
+    <meta property="og:image" content="https://www.umatravel.in/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.umatravel.in/">
+    <meta property="twitter:title" content="Uma International Travel Services | Book Your Dream Journey">
+    <meta property="twitter:description" content="Your trusted partner for seamless ticket booking and travel solutions.">
+    <meta property="twitter:image" content="https://www.umatravel.in/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+    
+    <title>Uma International Travel Services | Book Your Dream Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-plane">
+                <i class="fas fa-plane"></i>
+            </div>
+            <div class="loader-text">Uma International</div>
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="#home" class="logo-link">
+                        <img src="https://www.umatravel.in/logo.png" alt="Uma International Travel Services" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-text-fallback" style="display: none;">
+                            <span class="logo-text">Uma</span>
+                            <span class="logo-subtitle">International</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active" aria-label="Home">Home</a></li>
+                    <li><a href="#about" class="nav-link" aria-label="About">About</a></li>
+                    <li><a href="#services" class="nav-link" aria-label="Services">Services</a></li>
+                    <li><a href="#packages" class="nav-link" aria-label="Packages">Packages</a></li>
+                    <li><a href="#offers" class="nav-link" aria-label="Offers">Offers</a></li>
+                    <li><a href="#gallery" class="nav-link" aria-label="Gallery">Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link" aria-label="Testimonials">Testimonials</a></li>
+                    <li><a href="#faq" class="nav-link" aria-label="FAQ">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link" aria-label="Contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="animated-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>IATA Certified Travel Agency</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Your Journey</span>
+                    <span>Begins Here</span>
+                </h1>
+                <p class="hero-description">
+                    Crafting extraordinary travel experiences tailored to your dreams. 
+                    From serene getaways to thrilling adventures, we turn your travel 
+                    aspirations into reality.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">
+                        <span>Book Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#packages" class="btn btn-secondary">
+                        <span>Explore Packages</span>
+                        <i class="fas fa-compass"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Happy Travelers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Destinations</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">Support Hours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section" id="booking">
+        <div class="container">
+            <div class="booking-card">
+                <div class="booking-header">
+                    <h2>Book Your Journey</h2>
+                    <p>Select your travel mode and get instant booking</p>
+                </div>
+                <div class="booking-tabs">
+                    <button class="tab-btn active" data-tab="flight">
+                        <i class="fas fa-plane"></i>
+                        <span>Flight</span>
+                    </button>
+                    <button class="tab-btn" data-tab="train">
+                        <i class="fas fa-train"></i>
+                        <span>Train</span>
+                    </button>
+                    <button class="tab-btn" data-tab="hotel">
+                        <i class="fas fa-hotel"></i>
+                        <span>Hotel</span>
+                    </button>
+                    <button class="tab-btn" data-tab="tour">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>Tour Package</span>
+                    </button>
+                </div>
+                <div class="booking-form-container">
+                    <form class="booking-form active" id="flightForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> From</label>
+                                <input type="text" placeholder="Departure city" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> To</label>
+                                <input type="text" placeholder="Destination city" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Departure</label>
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Return (Optional)</label>
+                                <input type="date">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-users"></i> Passengers</label>
+                                <select required>
+                                    <option value="1">1 Passenger</option>
+                                    <option value="2">2 Passengers</option>
+                                    <option value="3">3 Passengers</option>
+                                    <option value="4">4+ Passengers</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-plane"></i> Class</label>
+                                <select>
+                                    <option value="economy">Economy</option>
+                                    <option value="business">Business</option>
+                                    <option value="first">First Class</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Find Best Deals</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+
+                    <form class="booking-form" id="trainForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> From</label>
+                                <input type="text" placeholder="Departure station" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> To</label>
+                                <input type="text" placeholder="Destination station" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Date</label>
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-users"></i> Passengers</label>
+                                <select required>
+                                    <option value="1">1 Passenger</option>
+                                    <option value="2">2 Passengers</option>
+                                    <option value="3">3 Passengers</option>
+                                    <option value="4">4+ Passengers</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Book Tickets</span>
+                            <i class="fas fa-ticket-alt"></i>
+                        </button>
+                    </form>
+
+                    <form class="booking-form" id="hotelForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> Destination</label>
+                                <input type="text" placeholder="City or Hotel name" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Check-in</label>
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Check-out</label>
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-users"></i> Guests</label>
+                                <select required>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4+ Guests</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Find Hotels</span>
+                            <i class="fas fa-bed"></i>
+                        </button>
+                    </form>
+
+                    <form class="booking-form" id="tourForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-globe"></i> Destination</label>
+                                <input type="text" placeholder="Where do you want to go?" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-calendar-alt"></i> Travel Date</label>
+                                <input type="date" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fas fa-users"></i> Travelers</label>
+                                <select required>
+                                    <option value="1">1 Traveler</option>
+                                    <option value="2">2 Travelers</option>
+                                    <option value="3">3 Travelers</option>
+                                    <option value="4">4+ Travelers</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-clock"></i> Duration</label>
+                                <select>
+                                    <option value="3-5">3-5 Days</option>
+                                    <option value="5-7">5-7 Days</option>
+                                    <option value="7-10">7-10 Days</option>
+                                    <option value="10+">10+ Days</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>View Packages</span>
+                            <i class="fas fa-globe-americas"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">Everything You Need for Your Journey</h2>
+                <p class="section-description">Comprehensive travel solutions designed to make your journey seamless</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Flight Tickets</h3>
+                    <p>Book flights seamlessly with competitive prices, flexible options, and hassle-free experience. Explore the skies with ease.</p>
+                    <a href="#booking" class="service-link">
+                        Book Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-train"></i>
+                    </div>
+                    <h3>Train Tickets</h3>
+                    <p>Quick, secure, and affordable train ticket bookings. Plan your journey effortlessly and discover the joy of train travel.</p>
+                    <a href="#booking" class="service-link">
+                        Book Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Tour Packages</h3>
+                    <p>Customized tour packages for every traveler. From exotic destinations to budget adventures, make your dream vacation reality.</p>
+                    <a href="#booking" class="service-link">
+                        Explore <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hotel Booking</h3>
+                    <p>Find your perfect stay with hassle-free reservations. Luxury, comfort, or affordability - we have options for every preference.</p>
+                    <a href="#booking" class="service-link">
+                        Book Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-heart"></i>
+                            <span>Trusted</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-star"></i>
+                            <span>Rated</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-award"></i>
+                            <span>Certified</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">Your Trusted Travel Partner</h2>
+                    <p>At Uma International Travel Services, we believe travel is more than just reaching a destination—it's about discovering new horizons, embracing diverse cultures, and creating cherished memories.</p>
+                    <p>From tranquil escapes to exhilarating adventures, we transform your travel desires into unforgettable journeys. Our commitment lies in delivering experiences that resonate with your unique preferences.</p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>IATA Certified Travel Agency</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Competitive Prices & Best Deals</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized Travel Solutions</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Popular Destinations</span>
+                <h2 class="section-title">Explore The World</h2>
+                <p class="section-description">Curated tour packages crafted to suit every traveler's needs</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Popular</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bali, Indonesia</span>
+                        </div>
+                        <h3>Tropical Paradise</h3>
+                        <p>Experience pristine beaches, ancient temples, and vibrant culture</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>5-7 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Group Tours</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹45,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Adventure</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Switzerland</span>
+                        </div>
+                        <h3>Alpine Adventure</h3>
+                        <p>Discover snow-capped peaks, crystal-clear lakes, and charming villages</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>7-10 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Custom Tours</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹1,25,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Cultural</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Japan</span>
+                        </div>
+                        <h3>Land of the Rising Sun</h3>
+                        <p>Immerse in traditional culture, modern cities, and scenic beauty</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>8-10 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Group Tours</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹95,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Beach</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maldives</span>
+                        </div>
+                        <h3>Island Paradise</h3>
+                        <p>Luxury resorts, crystal waters, and unforgettable sunsets</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>4-6 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Honeymoon</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹75,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Heritage</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Egypt</span>
+                        </div>
+                        <h3>Ancient Wonders</h3>
+                        <p>Explore pyramids, pharaohs' tombs, and rich history</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>6-8 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Group Tours</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹65,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="package-card">
+                    <div class="package-image">
+                        <div class="package-badge">Nature</div>
+                        <div class="package-overlay"></div>
+                    </div>
+                    <div class="package-content">
+                        <div class="package-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New Zealand</span>
+                        </div>
+                        <h3>Natural Beauty</h3>
+                        <p>Journey through stunning landscapes and adventure activities</p>
+                        <div class="package-details">
+                            <div class="detail-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>10-12 Days</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Adventure</span>
+                            </div>
+                        </div>
+                        <div class="package-footer">
+                            <div class="package-price">
+                                <span class="price-label">Starting from</span>
+                                <span class="price">₹1,50,000</span>
+                            </div>
+                            <button class="btn btn-outline">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Your bookings are safe with our secure payment gateway and trusted partnerships</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer support for all your travel needs and queries</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive pricing and exclusive deals to make your travel affordable</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Instant Booking</h3>
+                    <p>Book your flights, hotels, and tours in minutes with our fast booking system</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="special-offers" id="offers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Limited Time Offers</span>
+                <h2 class="section-title">Special Deals & Discounts</h2>
+                <p class="section-description">Don't miss out on these exclusive travel deals</p>
+            </div>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-badge">Save 30%</div>
+                    <div class="offer-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Summer Sale</h3>
+                    <p>Get 30% off on all international flights. Book now and save big!</p>
+                    <div class="offer-validity">
+                        <i class="fas fa-clock"></i>
+                        <span>Valid until: Dec 31, 2024</span>
+                    </div>
+                    <a href="#booking" class="btn btn-primary">Claim Offer</a>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">Save 25%</div>
+                    <div class="offer-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hotel Packages</h3>
+                    <p>25% discount on luxury hotel bookings. Perfect for your next vacation!</p>
+                    <div class="offer-validity">
+                        <i class="fas fa-clock"></i>
+                        <span>Valid until: Dec 31, 2024</span>
+                    </div>
+                    <a href="#booking" class="btn btn-primary">Claim Offer</a>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-badge">Save 40%</div>
+                    <div class="offer-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Group Tours</h3>
+                    <p>Book for 4+ people and get 40% off on tour packages. Travel together, save together!</p>
+                    <div class="offer-validity">
+                        <i class="fas fa-clock"></i>
+                        <span>Valid until: Dec 31, 2024</span>
+                    </div>
+                    <a href="#booking" class="btn btn-primary">Claim Offer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Choose Us</span>
+                <h2 class="section-title">Your Trusted Travel Partner</h2>
+                <p class="section-description">Experience the difference with our exceptional services</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-number">01</div>
+                    <div class="why-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>IATA Certified</h3>
+                    <p>Internationally recognized certification ensuring professional and reliable service</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">02</div>
+                    <div class="why-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Trusted Partnership</h3>
+                    <p>Strong relationships with airlines, hotels, and service providers worldwide</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">03</div>
+                    <div class="why-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>We match or beat any competitor's price. Your satisfaction is our commitment</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">04</div>
+                    <div class="why-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>100% secure transactions with multiple payment options for your convenience</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">05</div>
+                    <div class="why-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Worldwide Coverage</h3>
+                    <p>Book flights, hotels, and tours to over 500 destinations across the globe</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">06</div>
+                    <div class="why-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personalized Service</h3>
+                    <p>Tailored travel solutions designed to match your unique preferences and needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Gallery Section -->
+    <section class="destination-gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Explore The World</span>
+                <h2 class="section-title">Popular Destinations</h2>
+                <p class="section-description">Discover amazing places around the globe</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Tropical Paradise</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Switzerland</h3>
+                        <p>Alpine Beauty</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Japan</h3>
+                        <p>Land of Rising Sun</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Maldives</h3>
+                        <p>Island Paradise</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Egypt</h3>
+                        <p>Ancient Wonders</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image" style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=8000');"></div>
+                    <div class="gallery-overlay">
+                        <h3>Thailand</h3>
+                        <p>Golden Temples</p>
+                        <a href="#packages" class="gallery-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Tips Section -->
+    <section class="travel-tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Travel Guide</span>
+                <h2 class="section-title">Essential Travel Tips</h2>
+                <p class="section-description">Expert advice to make your journey smooth and memorable</p>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3>Pack Smart</h3>
+                    <p>Pack light and smart. Roll your clothes to save space and always carry essential documents in your hand luggage.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <h3>Check Documents</h3>
+                    <p>Verify your passport validity, visa requirements, and travel insurance before booking your trip.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Budget Planning</h3>
+                    <p>Set a realistic budget including accommodation, food, activities, and emergency funds for unexpected expenses.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Stay Connected</h3>
+                    <p>Keep your devices charged, download offline maps, and inform family about your travel itinerary.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-umbrella"></i>
+                    </div>
+                    <h3>Weather Check</h3>
+                    <p>Check weather forecasts for your destination and pack accordingly to avoid any weather-related surprises.</p>
+                </div>
+                <div class="tip-card">
+                    <div class="tip-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Payment Options</h3>
+                    <p>Carry multiple payment methods including cash, cards, and digital wallets for different situations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What Travelers Say</span>
+                <h2 class="section-title">Our Happy Customers</h2>
+                <p class="section-description">Don't just take our word for it - hear from our satisfied travelers</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Rajesh Kumar</h4>
+                                <p class="testimonial-location">Patna, Bihar</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Excellent service! Booked my flight to Dubai through Uma International and everything was smooth. The team was very helpful and got me the best deals. Highly recommended!"</p>
+                        <div class="testimonial-service">
+                            <i class="fas fa-plane"></i>
+                            <span>Flight Booking</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Priya Singh</h4>
+                                <p class="testimonial-location">Gopalganj, Bihar</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Amazing tour package to Bali! Everything was well-organized, from flights to hotels. The WhatsApp support made booking so easy. Will definitely use their services again!"</p>
+                        <div class="testimonial-service">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Tour Package</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Amit Verma</h4>
+                                <p class="testimonial-location">Delhi</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Quick train ticket booking service! Got my tickets in minutes. The 24/7 support is really helpful. Great experience overall. Thanks Uma International!"</p>
+                        <div class="testimonial-service">
+                            <i class="fas fa-train"></i>
+                            <span>Train Booking</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Sunita Devi</h4>
+                                <p class="testimonial-location">Gopalganj, Bihar</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Booked a hotel in Goa through them. Great prices and excellent customer service. They helped me find the perfect accommodation within my budget. Very satisfied!"</p>
+                        <div class="testimonial-service">
+                            <i class="fas fa-hotel"></i>
+                            <span>Hotel Booking</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Vikash Yadav</h4>
+                                <p class="testimonial-location">Mumbai</p>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Outstanding service for our family trip to Singapore. They handled everything - flights, hotels, and local tours. Professional team and best rates. Highly recommend!"</p>
+                        <div class="testimonial-service">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Tour Package</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials-controls">
+                    <button class="testimonial-btn prev-btn" id="testimonialPrev" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-dots" id="testimonialsDots"></div>
+                    <button class="testimonial-btn next-btn" id="testimonialNext" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Got Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Find answers to common questions about our services</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I book a flight ticket?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can book flight tickets by filling out the booking form on our website, calling us at +91-6156359772, or messaging us on WhatsApp at +91-9771648655. Our team will provide you with the best available options and prices.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are you IATA certified?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, Uma International Travel Services is an IATA certified travel agency, ensuring you receive reliable and professional travel booking services.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept various payment methods including cash, bank transfers, UPI, and credit/debit cards. Payment options will be discussed during the booking process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I cancel or modify my booking?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Cancellation and modification policies vary depending on the service provider and ticket type. Please contact us directly, and we'll assist you with the cancellation or modification process and explain any applicable fees.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide travel insurance?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we can help you arrange travel insurance for your journey. Contact us for more details about available insurance options and coverage.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your office hours?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer 24/7 customer support via phone and WhatsApp. Our physical offices in Gopalganj have standard business hours, but you can reach us anytime for assistance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can you help with visa applications?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide visa assistance services. Contact us with your travel destination, and we'll guide you through the visa application process and required documentation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer group travel discounts?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer special rates and discounts for group bookings. Contact us with your group size and travel requirements, and we'll provide you with the best available group rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-description">We're here to help you plan your perfect journey</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Office Locations</h3>
+                        <div class="contact-details">
+                            <div class="location-item">
+                                <strong>Main Office</strong>
+                                <p>Nagar Palika Market, Post Office Chowk,<br>Banjari Road, Gopalganj, Bihar - 841428</p>
+                            </div>
+                            <div class="location-item">
+                                <strong>Branch Office</strong>
+                                <p>Kushwaha Market, Kuchaikote,<br>Gopalganj, Bihar - 841501</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <div class="contact-details">
+                            <a href="tel:+916156359772">+91-6156359772</a>
+                            <a href="tel:+919123279922">+91-9123279922</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <div class="contact-details">
+                            <a href="https://wa.me/919771648655" target="_blank">+91-9771648655</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <div class="contact-details">
+                            <a href="mailto:umatravelskk@gmail.com">umatravelskk@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Email</label>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Phone</label>
+                            <input type="tel" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="What's this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="5" placeholder="Tell us more..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h2>Join Our Newsletter</h2>
+                <p>Subscribe to receive the latest travel deals, exclusive offers, and travel inspiration</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Subscribe</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://www.umatravel.in/logo.png" alt="Uma International Travel Services" class="footer-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-text-fallback" style="display: none;">
+                            <span class="logo-text">Uma</span>
+                            <span class="logo-subtitle">International</span>
+                        </div>
+                    </div>
+                    <p>Your trusted partner in seamless ticket booking and travel solutions, bringing the world closer to you.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://wa.me/919771648655" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#booking">Flight Tickets</a></li>
+                        <li><a href="#booking">Train Tickets</a></li>
+                        <li><a href="#booking">Hotel Reservation</a></li>
+                        <li><a href="#booking">Tour Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+916156359772">+91-6156359772</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/919771648655" target="_blank">+91-9771648655</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:umatravelskk@gmail.com">umatravelskk@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Uma International Travel Services. All Rights Reserved.</p>
+                <p>Designed & Developed by Uma International</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
